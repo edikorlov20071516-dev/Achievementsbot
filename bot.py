@@ -13,7 +13,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 logging.basicConfig(level=logging.INFO)
 
 # Токен бота (замени на свой)
-BOT_TOKEN = "8125367276:AAGAF5aCtopQB5Hg45Le3EjE3Q5OwAbs9mo"
+BOT_TOKEN = "BOT_TOKEN"
 
 # Инициализация бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
@@ -536,4 +536,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
